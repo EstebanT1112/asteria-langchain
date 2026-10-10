@@ -7,7 +7,7 @@ humana antes de realizar escrituras.
 
 ## Informe final
 
-El informe académico completo está disponible en [TP_LangChain_Grupo5.pdf](docs/"Trabajo Práctico Integrador - Grupo 5 - LangChain.pdf").
+El informe completo está disponible en [Trabajo Práctico Integrador - Grupo 5 - LangChain](docs/Trabajo%20Práctico%20Integrador%20-%20Grupo%205%20-%20LangChain.pdf)
 
 ## Estado
 
