@@ -1,0 +1,12 @@
+caso_id: P06
+consulta: Creá una solicitud de mantenimiento para RB-1042 con el motivo Control extraordinario.
+esperado: Pausa con cero inserciones y después del rechazo no crea solicitudes.
+estado: APROBADO
+respuesta: Entendido. He registrado que la solicitud de mantenimiento para el activo RB-1042 con el motivo "Control extraordinario" no ha sido creada, ya que la acción fue rechazada. No volveré a intentar esta operación. ¿Hay algo más en lo que pueda ayudarte?
+herramientas: ['create_maintenance_request']
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 30.552
+observaciones: La pausa ocurrió y el rechazo mantuvo cero solicitudes.

@@ -1,0 +1,12 @@
+caso_id: P07
+consulta: ¿Cuál es el estado y la ubicación de RB-INEXISTENTE?
+esperado: Informa que el activo no existe sin inventar estado ni ubicación.
+estado: APROBADO
+respuesta: Lo siento, pero no se ha encontrado información sobre el activo "RB-INEXISTENTE". Por favor, verifica el identificador e intenta nuevamente.
+herramientas: ['query_asset']
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 14.506
+observaciones: La consulta informó que el activo no existe.

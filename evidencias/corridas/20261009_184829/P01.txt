@@ -1,0 +1,12 @@
+caso_id: P01
+consulta: ¿Cada cuánto se inspecciona el XR-7? Citá documento identificador y versión.
+esperado: Responde 30 días y cita manual_xr7 versión 1.0.
+estado: APROBADO
+respuesta: El robot industrial XR-7 debe someterse a una inspección preventiva cada 30 días, según se establece en el **Manual de mantenimiento preventivo del XR-7** (identificador: `manual_xr7`, versión: `1.0`).
+herramientas: ['search_knowledge_base']
+fuentes: ['manual_xr7', 'politica_seguridad']
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 44.592
+observaciones: Recuperó manual_xr7 y respondió frecuencia con cita completa.

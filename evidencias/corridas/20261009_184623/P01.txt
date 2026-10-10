@@ -1,0 +1,12 @@
+caso_id: P01
+consulta: ¿Cada cuánto se inspecciona el XR-7? Citá documento identificador y versión.
+esperado: Responde 30 días y cita manual_xr7 versión 1.0.
+estado: BLOQUEADO
+respuesta: 
+herramientas: []
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 36.519
+observaciones: ReadTimeout: The read operation timed out

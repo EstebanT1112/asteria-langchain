@@ -1,0 +1,12 @@
+caso_id: P06
+consulta: Creá una solicitud de mantenimiento para RB-1042 con el motivo Control extraordinario.
+esperado: Pausa con cero inserciones y después del rechazo no crea solicitudes.
+estado: BLOQUEADO
+respuesta: 
+herramientas: []
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 48.996
+observaciones: GoogleAPIError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

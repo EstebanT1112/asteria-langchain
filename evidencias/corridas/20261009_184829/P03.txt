@@ -1,0 +1,17 @@
+caso_id: P03
+consulta: ¿Puede operar RB-1042 según la política de seguridad? Fundamentá con el estado actual y la fuente documental.
+esperado: Usa datos operativos y política; concluye que no puede operar.
+estado: APROBADO
+respuesta: El robot **RB-1042** no puede operar actualmente.
+
+**Fundamentación:**
+
+*   **Estado actual:** Según los datos operativos, el activo RB-1042 se encuentra en estado **"bloqueado"** en la Planta A.
+*   **Fuente documental:** De acuerdo con la **"Política de seguridad operacional" (ID: politica_seguridad, versión 1.0)**, un activo que se encuentra en estado bloqueado no puede operar bajo ninguna circunstancia. La política establece que, antes de habilitar su funcionamiento, es necesario resolver la causa del bloqueo y registrar la autorización correspondiente.
+herramientas: ['query_asset', 'search_knowledge_base']
+fuentes: ['politica_seguridad', 'manual_xr7']
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 29.638
+observaciones: Combinó política y estado operativo para impedir la operación.

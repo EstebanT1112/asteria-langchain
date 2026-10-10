@@ -1,0 +1,3 @@
+caso_id: P05
+estado: BLOQUEADO
+observaciones: No ejecutado después de confirmar un bloqueo sistémico del proveedor: GoogleAPIError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

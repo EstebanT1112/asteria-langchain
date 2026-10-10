@@ -1,0 +1,12 @@
+caso_id: P02
+consulta: ¿Cuál es el estado y la ubicación de RB-1042?
+esperado: Responde bloqueado y Planta A.
+estado: BLOQUEADO
+respuesta: 
+herramientas: []
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 4.690
+observaciones: GoogleAPIError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

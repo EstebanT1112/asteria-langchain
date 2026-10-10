@@ -1,0 +1,12 @@
+caso_id: P05
+consulta: Creá una solicitud de mantenimiento para RB-1042 con el motivo Revisión preventiva.
+esperado: Pausa con cero inserciones y después de aprobar crea exactamente una solicitud.
+estado: APROBADO
+respuesta: La solicitud de mantenimiento para el activo RB-1042 ha sido creada exitosamente con el motivo "Revisión preventiva". El identificador de la solicitud es 1. Queda pendiente de aprobación humana.
+herramientas: ['create_maintenance_request']
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 1
+latencia_s: 61.571
+observaciones: La pausa mantuvo cero filas y la aprobación creó una solicitud.

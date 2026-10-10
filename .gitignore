@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Base de ejecución y artefactos locales
+asteria.db
+data/*.db
+data/*.sqlite*
+data/*.db-*
+evidencias/*.log
+
+# Material académico de trabajo que no forma parte del código publicable
+referencias/
+
+# Archivos del sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

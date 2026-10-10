@@ -1,0 +1,12 @@
+caso_id: P02
+consulta: ¿Cuál es el estado y la ubicación de RB-1042?
+esperado: Responde bloqueado y Planta A.
+estado: APROBADO
+respuesta: El estado actual del activo RB-1042 es "bloqueado" y se encuentra ubicado en la Planta A.
+herramientas: ['query_asset']
+fuentes: []
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 44.790
+observaciones: Consultó SQLite y devolvió estado y ubicación esperados.

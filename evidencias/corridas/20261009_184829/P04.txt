@@ -1,0 +1,12 @@
+caso_id: P04
+consulta: ¿Qué batería utiliza el XR-9?
+esperado: Reconoce que el corpus no contiene esa información y no inventa una especificación.
+estado: APROBADO
+respuesta: La información sobre el tipo de batería que utiliza el modelo XR-9 no se encuentra disponible en los documentos técnicos consultados.
+herramientas: ['search_knowledge_base']
+fuentes: ['manual_xr7', 'politica_seguridad']
+db_antes: 0
+db_durante: 0
+db_despues: 0
+latencia_s: 36.020
+observaciones: Reconoció que el corpus no informa la batería del XR-9.
