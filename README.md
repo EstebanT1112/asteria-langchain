@@ -5,6 +5,10 @@ de Sistemas de Información de UTN FRLP. El repositorio contiene un agente
 funcional que combina documentación, SQLite, Gemini, LangGraph y aprobación
 humana antes de realizar escrituras.
 
+## Informe final
+
+El informe académico completo está disponible en [TP_LangChain_Grupo5.pdf](docs/TP_LangChain_Grupo5.pdf).
+
 ## Estado
 
 El agente y las pruebas están implementados. La suite local contiene 18 pruebas
